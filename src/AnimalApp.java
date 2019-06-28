@@ -16,6 +16,21 @@ public class AnimalApp {
         print(b.eat());
         print(b.sleep());
         print(b.fly());
+
+        Dog d = new Dog();
+        print(d.eat());
+        print(d.sleep());
+        print(d.bark());
+
+        Mouse m = new Mouse();
+        print(m.eat());
+        print(m.sleep());
+        print(m.squeak());
+
+        Bunny bun = new Bunny();
+        print(bun.eat());
+        print(bun.sleep());
+        print(bun.hop());
     }
 
     private static  void print(String s){
